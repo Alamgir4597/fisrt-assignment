@@ -1,0 +1,140 @@
+body{
+    font: 1em sans-serif;
+    margin: 0;   
+}
+/* first section css */
+.first-sec{
+    display: flex;
+    margin-bottom: 100px;
+
+}
+.first-sec h1{
+    font-size: 50px;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(226, 59, 17),rgb(255, 0, 13)) ;
+    border-image-slice:1;
+}
+.span-sty{
+    color: aqua;
+}
+.sty-anch{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(0, 255, 128),rgb(255, 71, 71));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+.text-div{
+    width: 50%;
+    padding: 150px;
+}
+.img-div{
+    width: 50%;
+}
+.img-div img{
+    width: 50%;
+    padding-top: 100px;
+}
+/* two section css */
+.two-sec h1{
+    text-align: center;
+    font-size: 50px;
+}
+.sec2-text-sty{
+    color: brown;
+}
+.div-3-1{
+    display: flex;
+    margin-bottom: 150px;
+    padding: 50px;
+}
+.div-3-1 img{
+    width: 30%;
+}
+.sec2-div1{
+    width: 33%;
+    margin-left: 50px;
+    box-shadow: 10px  10px 40px gray;
+    border-radius: 10px;
+    text-align: justify;
+    background-color: burlywood;
+    padding: 40px 10px;
+}
+.sec2-div2{
+    width: 33%;
+    margin-left: 50px;
+    box-shadow: 10px  10px 40px gray;
+    border-radius: 10px;
+    text-align: justify;
+    background-color: cornsilk;
+    padding: 40px 10px;
+}
+.sec2-div3{
+    width: 33%;
+    margin-left: 50px;
+    box-shadow: 10px  10px 40px gray;
+    border-radius: 10px;
+    text-align: justify;
+    background-color: darkseagreen;
+    padding: 40px 10px;
+}
+/* section three css */
+.sec-three{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 40px;
+}
+.sec3-imgdiv{
+    width: 50%;
+    margin-left: 150px;
+}
+.sec3-imgdiv img{
+    width: 80%;   
+}
+.sec3-textdiv{
+    width: 50%;
+    margin-right: 150px;
+}
+.sec3-textdiv h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.sec3-textdiv p{
+    text-shadow:   5px -10px 5px  rgb(14, 244, 248);
+}
+.sec3-a{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(0, 255, 128),rgb(255, 71, 71));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+/* section four css */
+.sec-four{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+     background-position: right;
+    
+    
+}
+.sec-four h1{
+    font-size: 50px;
+}
+.sec4-textdiv{
+    width: 50%;
+    margin-left: 150px;
+}
+.sec4-imgdiv{
+    width: 50%;
+    margin-left: 150px;
+}
+.sec4-imgdiv  img{
+    width: 80%;
+}
