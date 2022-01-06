@@ -10,9 +10,10 @@ body{
 }
 .first-sec h1{
     font-size: 50px;
-    border-left: 7px solid;
+    border-left: 4px solid;
     border-image: linear-gradient(rgb(226, 59, 17),rgb(255, 0, 13)) ;
     border-image-slice:1;
+    
 }
 .span-sty{
     color: aqua;
@@ -104,7 +105,7 @@ body{
     font-weight: 900;
 }
 .sec3-textdiv p{
-    text-shadow:   5px -10px 5px  rgb(14, 244, 248);
+   font-family: 'Courier New', Courier, monospace;
 }
 .sec3-a{
     text-decoration: none;
@@ -118,10 +119,7 @@ body{
 .sec-four{
     display: flex;
     margin-bottom: 150px;
-    background-image: url(images/shape-1.png);
-    background-repeat: no-repeat;
-     background-position: right;
-    
+   
     
 }
 .sec-four h1{
@@ -134,7 +132,37 @@ body{
 .sec4-imgdiv{
     width: 50%;
     margin-left: 150px;
+    
 }
 .sec4-imgdiv  img{
     width: 80%;
+}
+
+
+.sec-five h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+footer{
+    background-color: black;
+    height: 150px;
+    
+}
+
+.footer-sec h1{
+    text-align: center;
+    padding-top: 50px;
+    color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer-sec p{
+     text-align: center;
+    padding-top: 5px;
+    color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.sec5-spntext{
+    padding-right: 90px;
 }
